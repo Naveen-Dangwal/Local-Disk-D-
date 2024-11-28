@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1 style="color: blueviolet;">WEEKS DAYS</h1><br>
+
+        <input type="text" placeholder="enter no. between 1 to 7" id="w"><br><br>
+        <button style="background-color: rgb(67, 226, 43); color: aliceblue;" onclick="
+
+        let n=document.getElementById('w').value;
+
+        switch(n)
+        {
+            case 1:
+                document.getElementById('p').innerText='Monday';
+                break;
+            
+            case 2:
+                document.getElementById('p').innerText='Tuesday';
+                break;
+
+            case 3:
+                document.getElementById('p').innerText='Wednesday';
+                break;
+
+            case 4:
+                document.getElementById('p').innerText='Thursday';
+                break;
+
+            case 5:
+                document.getElementById('p').innerText='Friday';
+                break;
+            
+            case 6:
+                document.getElementById('p').innerText='Saturday';
+                break;
+
+            case 7:
+                document.getElementById('p').innerText='Sunday';
+                break;
+
+            default:
+                document.getElementById('p').innerText='Please enter valid number';
+                break;
+        }
+        ">Click Me</button><br><br>
+
+        <h3 id="p" style="color: palevioletred;"></h3>
+    </center>
+</body>
+</html>r+=n + ' x ' + i + ' = ' + n*i + '<br>';

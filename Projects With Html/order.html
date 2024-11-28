@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Order Program</h1><br>
+        <input type="text" placeholder="enter the first number" id="n1"><br>
+        <input type="text" placeholder="enter the second number" id="n2"><br>
+        <input type="text" placeholder="enter the third number" id="n3"><br><br>
+
+        <button onclick="
+        
+        let n1=document.getElementById('n1').value;
+        let n2=document.getElementById('n2').value;
+        let n3=document.getElementById('n3').value;
+
+        if(n1<n2 && n2<n3)
+        document.getElementById('p').innerText='increasing';
+         
+        else if(n1>n2 && n2>n3)
+        document.getElementById('p').innerText='decreasing';
+
+        else
+        document.getElementById('p').innerText='neither increasing or decreasing';
+
+        ">click me</button>
+
+        <p id="p"></p>
+
+
+
+    </center>
+</body>
+</html>
