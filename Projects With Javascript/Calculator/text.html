@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <h1>Calculator</h1>
+      <div class="main">
+        <input type="text" id="display" readonly />
+        <div>
+          <button class="mb" onclick=" val='%'; display.value+=val">%</button>
+          <button class="mb" onclick=" val=' '; display.value=val">C</button>
+          <button
+            class="mb"
+            onclick=" 
+        val=display.value;
+        val=val.slice(0,-1);
+        display.value=val"
+          >
+            Cut
+          </button>
+          <button class="mb" onclick=" val='/'; display.value+=val">/</button>
+          <button class="mb" onclick=" val='7'; display.value+=val">7</button>
+          <button class="mb" onclick=" val='8'; display.value+=val">8</button>
+          <button class="mb" onclick=" val='9'; display.value+=val">9</button>
+          <button class="mb" onclick=" val='*'; display.value+=val">*</button>
+          <button class="mb" onclick=" val='4'; display.value+=val">4</button>
+          <button class="mb" onclick=" val='5'; display.value+=val">5</button>
+          <button class="mb" onclick=" val='6'; display.value+=val">6</button>
+          <button class="mb" onclick=" val='-'; display.value+=val">-</button>
+          <button class="mb" onclick=" val='1'; display.value+=val">1</button>
+          <button class="mb" onclick=" val='2'; display.value+=val">2</button>
+          <button class="mb" onclick=" val='3'; display.value+=val">3</button>
+          <button class="mb" onclick=" val='+'; display.value+=val">+</button>
+          <button class="mb" onclick=" val='**'; display.value+=val">**</button>
+          <button class="mb" onclick=" val=' 0'; display.value+=val">0</button>
+          <button class="mb" onclick=" val='.'; display.value+=val">.</button>
+          <button
+            class="mb"
+            value=" submit"
+            id="submit"
+            onclick="
+              val=eval(display.value);
+              display.value=val;
+            "
+            >
+            =
+          </button>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.main{
+    border: 5px solid darkred;
+    width:500px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow:30px 30px 50px 2px;
+}
+input{
+    height: 100px;
+    width: 470px;
+    border: 5px solid darkblue;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 70px;
+    background-color: aquamarine;
+}
+
+.mb{
+    width: 100px;
+    height: 80px;
+    border-radius: 15px;
+    font-size:50px;
+    margin: 5px;
+
+}
+#submit:hover{
+    background-color: aqua;
+}

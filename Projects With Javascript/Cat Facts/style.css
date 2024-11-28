@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+button{
+    height:80px;
+    width:180px;
+    margin-left:650px;
+}
+
+ol{
+    list-style-type: none;
+    text-transform: capitalize;
+    text-align: justify;
+}
